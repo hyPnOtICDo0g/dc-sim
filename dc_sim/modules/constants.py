@@ -1,0 +1,14 @@
+class SharedConstants:
+    PACKET_SIZE = 1024
+    PROPAGATION_TIME = 3
+    SENDER_TIMEOUT_TRIALS = 500
+    ACKNOWLEDGEMENT_PROBABILITY = 0.4
+
+class Colors:
+    ENDC = '\033[0m'
+    HEADER = '\033[95m'
+    OKBLUE = '\033[94m'
+    OKCYAN = '\033[96m'
+    OKGREEN = '\033[92m'
+    FAILRED = '\033[91m'
+    WARNINGYELLOW = '\033[93m'
