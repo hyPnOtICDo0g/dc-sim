@@ -7,7 +7,7 @@ A command-line tool used to simulate popular techniques in the field of **Data C
 ```
 usage: dc-sim [-h] [-V] {crc,hamming,stopwait} ...
 
-Utilities to enhance data communication.
+Simulate data communication techniques.
 
 optional arguments:
   -h, --help            show this help message and exit
@@ -47,6 +47,7 @@ Then, start the **sender** in another terminal instance:
 ```
 dc-sim stopwait --mode sender --packets 10
 ```
+[![asciicast](https://asciinema.org/a/Io0AhcaaHkkZ9mCUNSsWIwLbr.png)](https://asciinema.org/a/Io0AhcaaHkkZ9mCUNSsWIwLbr)
 
 # Dependencies
 

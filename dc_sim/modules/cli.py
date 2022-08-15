@@ -4,7 +4,7 @@ from argparse import (ArgumentParser, ArgumentDefaultsHelpFormatter, Namespace)
 class cmd:
     def parseArgs(self) -> Namespace:
         # global flags
-        parser = ArgumentParser(description='Utilities to enhance data communication.')
+        parser = ArgumentParser(description='Simulate data communication techniques.')
         parser.add_argument('-V', '--version', action='version', version='%(prog)s 1.0')
         subparsers = parser.add_subparsers(title='utilities', dest='subcommand')
 
