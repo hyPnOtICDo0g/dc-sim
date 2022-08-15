@@ -7,7 +7,7 @@ except ImportError:
 if __name__ == '__main__':
     setup(
         name = 'dc-sim',
-        version = '1.0.0',
+        version = '1.0.1',
         description = 'Simulate popular Data Communication techniques.',
         keywords = 'cli tool communication error detection transmission',
         python_requires = '>=3.7',

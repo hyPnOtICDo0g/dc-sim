@@ -5,7 +5,7 @@ class cmd:
     def parseArgs(self) -> Namespace:
         # global flags
         parser = ArgumentParser(description='Simulate data communication techniques.')
-        parser.add_argument('-V', '--version', action='version', version='%(prog)s 1.0')
+        parser.add_argument('-V', '--version', action='version', version='%(prog)s 1.0.1')
         subparsers = parser.add_subparsers(title='utilities', dest='subcommand')
 
         crc = subparsers.add_parser('crc', help='Simulate the CRC error detection technique.')
